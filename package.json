@@ -1,0 +1,19 @@
+{
+  "name": "profile-card-component",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --watch ./sass/profile-card.scss:./css/profile-card.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jdhaisne/profile-card-component.git"
+  },
+  "author": "Dhaisne Julien",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jdhaisne/profile-card-component/issues"
+  },
+  "homepage": "https://github.com/jdhaisne/profile-card-component#readme"
+}

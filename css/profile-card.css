@@ -1,0 +1,57 @@
+html, body {
+  font-family: "Kumbh Sans", sans-serif;
+  color: #969696;
+}
+
+body {
+  background: url(../images/bg-pattern-top.svg) no-repeat, url(../images/bg-pattern-bottom.svg) no-repeat, #19a2ae;
+  background-position: top -550px left -280px, bottom -660px right -220px;
+}
+
+.main-card {
+  background: url(../images/bg-pattern-card.svg) no-repeat top/100% 36%, white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  margin: 15% 20px;
+  border-radius: 15px;
+  padding: 80px 0px 0px;
+  max-width: 375px;
+}
+@media (min-width: 425px) {
+  .main-card {
+    margin: 15% auto;
+  }
+}
+
+.identity__name {
+  font-weight: 700;
+  color: #2d3248;
+}
+.identity__picture {
+  border: solid white 6px;
+  border-radius: 50%;
+}
+
+.line {
+  width: 100%;
+  height: 1px;
+  background-color: #969696;
+  margin: 15px 0px;
+}
+
+.social {
+  display: flex;
+  justify-content: space-around;
+}
+
+.stat {
+  margin: 15px 0px;
+}
+.stat__number {
+  color: #2d3248;
+  font-weight: 700;
+}
+
+/*# sourceMappingURL=profile-card.css.map */
