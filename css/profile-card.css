@@ -3,9 +3,19 @@ html, body {
   color: #969696;
 }
 
-body {
+html {
   background: url(../images/bg-pattern-top.svg) no-repeat, url(../images/bg-pattern-bottom.svg) no-repeat, #19a2ae;
   background-position: top -550px left -280px, bottom -660px right -220px;
+}
+@media (max-width: 1000px) {
+  html {
+    background-position: top -550px left -480px, bottom -660px right -520px;
+  }
+}
+@media (max-width: 700px) {
+  html {
+    background-position: top -550px left -680px, bottom -660px right -820px;
+  }
 }
 
 .main-card {
